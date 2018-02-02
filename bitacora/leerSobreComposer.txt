@@ -1,0 +1,8 @@
+cuando se modifica el composer.jason 
+se crea un archivo autoload.php
+
+luego se va a la consola cmd y se
+instala de nuevo el composer como si fuera
+primera vez
+
+comando: $php composer.phar install

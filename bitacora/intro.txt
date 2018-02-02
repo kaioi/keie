@@ -1,0 +1,6 @@
+intro a MVC3
+
+ORM: Object Relational Mapping y es una técnica en la que tratamos de convertir a 
+objetos todos los registros que tenemos en nuestra base de datos.
+
+Eloquent->orm->usaFrameWorkLaravel

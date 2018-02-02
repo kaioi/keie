@@ -1,0 +1,19 @@
+Validaciones
+
+Vamos a hablar un poco sobre validaciones de datos. 
+Básicamente, podemos decir que hay dos tipos de validaciones de datos:
+Una validación que se puede hacer del lado del cliente.
+Una validación que podemos hacer del lado del servidor.
+En esta sección vamos a hablar sobre validaciones del lado del servidor. 
+Estas las vamos a realizar utilizando php y las hacemos en cuanto recibimos los datos de un blog post.
+Si queremos hacer validaciones del lado del cliente, se puede lograr usando JavaScript.
+¿Qué problemas encontramos aquí?
+El problema con la validación del lado del cliente es que podría hacer que
+ JavaScript sea modificado, deshabilitado o alterado del lado del cliente.
+El problema con las validaciones del lado del servidor es que se requiere 
+que se haga un envío hacia el servidor y que se regrese para mostrar la respuesta.
+En mi experiencia yo les recomiendo que validen de ambos lados. Del lado del 
+cliente para que mejoren la experiencia del usuario y del servidor para que no 
+reciban ningún dato malicioso o que reciban información errónea.
+
+packagist->validation->siriusphp/validation

@@ -1,0 +1,18 @@
+Configuración de Variables de Entorno
+En este momento vamos a hacer un pequeño cambio que es muy importante que tengan en cuenta 
+cuando hagan envíen una aplicación a producción.
+Vamos a utilizar variables de entorno, esto quiere decir que dentro de 
+nuestro servidor siempre podemos definir variables de entorno. En este caso, 
+vamos a cambiar nuestro 
+proyecto para que el entorno local simule que existen estas variables de entorno.
+
+1. PACKAGIST->vlucas/phpdotenv
+
+
+beneficiosDeLaConfiguracionDeVariablesDeEntorno
+
+En local no te afecta mucho, pero en servidores en producción es
+ una de las formas más seguras de tener a salvo tus keys de acceso 
+a bases de datos o servicios de terceros, ya que hacen parte del sistema 
+y salvo que tengas una vulnerabilidad muy grande en tu aplicación que 
+permita acceder a los archivos del sistema, es muy difícil que puedan llegar a esos datos.
